@@ -21,7 +21,7 @@ spec:
         app: python-helloworld
     spec:
       containers:
-      - image: caiofgabi/python-helloworld:latest 
+      - image: caiofgabi/python-helloworld
         imagePullPolicy: IfNotPresent
         name: python-helloworld
         resources:
